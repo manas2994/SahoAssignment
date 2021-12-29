@@ -1,0 +1,21 @@
+<p>reactive-form works!</p>
+
+<form [formGroup]="regform" (ngSubmit)=Login(regform)>
+    <div>
+        First Name: <input type="text" placeholder="Enter First name" formControlName="fname" />
+    </div>
+
+    <div>
+        Last Name: <input type="text" placeholder="Enter Last name" formControlName="lname" />
+    </div>
+    <div>
+        Email: <input type="text" placeholder="Enter First name" formControlName="email" />
+    </div>
+    <div>
+        Mobile Number: <input type="text" placeholder="Enter First name" formControlName="mobileNo" />
+    </div>
+    <div>
+        <button type="submit">Login</button>
+    </div>
+
+</form>

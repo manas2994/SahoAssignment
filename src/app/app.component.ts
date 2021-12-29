@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'TheGoodBlog';
-}
+
+isShow:boolean=true;
+  showHide()
+{
+  this.isShow=!this.isShow;
+}}
